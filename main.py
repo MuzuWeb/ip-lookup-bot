@@ -4,10 +4,10 @@ import requests
 
 intents = discord.Intents.default()
 intents.message_content = True
-ipinfo_api_token = "121010975c9f06"
+ipinfo_api_token = "your ipinfo.io api key"
 ip = ""
 
-token = "MTAxMzg1MzE2OTk3MDg1NTk1Nw.G6rdIf.OZm8e98UrNqbOsiQWpsqI6CsWeIW8RJAhIx5LM"
+token = "your bot token"
 bot = commands.Bot(command_prefix='+', intents=intents)
 
 @bot.command()
